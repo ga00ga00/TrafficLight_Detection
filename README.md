@@ -6,14 +6,15 @@
 
 ### 1. 컴파일
 프로젝트 빌드를 위해 C++17 이상 및 OpenCV 4가 필요합니다. 터미널에서 아래 명령어를 실행해 주세요.
-
+```text
 g++ -o TrafficLight_v2 TrafficLight_v2.cpp `pkg-config --libs --cflags opencv4`
+```
 
 ### 2. 실행
 컴파일 후 아래 명령어로 실행할 수 있습니다.
-
+```text
 ./TrafficLight_v2 --camera 0 --save-debug --save-only-detected --save-every-n 5
-
+```
 ### 3. 실행 옵션 설명
 실행 옵션 설명:
 
